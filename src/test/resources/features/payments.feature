@@ -1,6 +1,5 @@
-srFeature: Zelle-inspired Payments and Account Transfers
-  As a user
-  I want to send payments and transfer money between accounts
+Feature: Zelle-inspired Payments and Account Transfers
+  As a user I want to send payments and transfer money between accounts
   So that the system processes transactions correctly and shows messages in English or Spanish
 
   Scenario Outline: Transfer money between accounts
