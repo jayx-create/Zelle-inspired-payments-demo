@@ -1,2 +1,2 @@
 # Zelle-inspired-payments-demo
-This Java project is inspired by Zelle to showcase a Zelle inspired payment project
+This project is a Zelle-inspired peer-to-peer payments system extended with banking features such as checking/savings account transfers, card-specific rules (Mastercard vs Amex for exmaple ), and multilingual UI messages.
