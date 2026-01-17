@@ -1,0 +1,39 @@
+{
+  "users": [
+    { "id": 1, "name": "Alice", "language": "EN" },
+    { "id": 2, "name": "Bob", "language": "ES" }
+  ],
+  "accounts": [
+    { "userId": 1, "type": "CHECKING", "balance": 1000.0 },
+    { "userId": 1, "type": "SAVINGS", "balance": 500.0 },
+    { "userId": 2, "type": "CHECKING", "balance": 1500.0 },
+    { "userId": 2, "type": "SAVINGS", "balance": 800.0 }
+  ],
+  "cards": [
+    { "userId": 1, "cardType": "MASTERCARD", "limit": 2000.0 },
+    { "userId": 1, "cardType": "AMEX", "limit": 5000.0 },
+    { "userId": 2, "cardType": "MASTERCARD", "limit": 2000.0 }
+  ],
+  "transfers": [
+    {
+      "fromUserId": 1,
+      "fromAccount": "CHECKING",
+      "toAccount": "SAVINGS",
+      "cardType": "MASTERCARD",
+      "amount": 100.0,
+      "scheduledDate": "2026-01-16",
+      "expectedStatus": "COMPLETED",
+      "language": "EN"
+    },
+    {
+      "fromUserId": 2,
+      "fromAccount": "CHECKING",
+      "toAccount": "SAVINGS",
+      "cardType": "AMEX",
+      "amount": 5000.0,
+      "scheduledDate": "2026-01-16",
+      "expectedStatus": "FAILED",
+      "language": "ES"
+    }
+  ]
+}
